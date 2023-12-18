@@ -31,7 +31,7 @@ Welcome to the Image Slider with Filtering project! This responsive website feat
 
 ## 🌐 Live Demo
 
-Experience the versatility of your Image Slider with Filtering in our live demo [here](#).
+Experience the versatility of your Image Slider with Filtering in our live demo - https://chula805.github.io/TechA-Task2/
 
 ## 📬 Feedback
 
