@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Image Gallery with Filtering</title>
+  </head>
+  <body>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Image Filtering</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web Design</button>
+          <button class="btn project__btn" data-filter=".ui">UI Design</button>
+          <button class="btn project__btn" data-filter=".logo">
+           Logo Design
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets/1.jpg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/2.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/3.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/4.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/5.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix ui">
+          <img src="assets/6.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix ui">
+          <img src="assets/7.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix ui">
+          <img src="assets/8.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix logo">
+          <img src="assets/9.png" alt="project" />
+        </div>
+        <div class="project__card mix logo">
+          <img src="assets/10.png" alt="project" />
+        </div>
+        <div class="project__card mix logo">
+          <img src="assets/11.png" alt="project" />
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
+</html>
